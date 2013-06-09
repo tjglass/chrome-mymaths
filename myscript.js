@@ -7,7 +7,7 @@ window.nativeAlert = window.alert;
 */
 toggleMyMaths = function() {
 	
-	blockedSchools = [
+	blockedUsers = [
 		
 	]
 
@@ -29,16 +29,9 @@ toggleMyMaths = function() {
 		var studentid = jQuery('object')[0].GetVariable('studentid');
 		var student = jQuery('object')[0].GetVariable('student');
 	}
-
-	if(student == null) {
-		student = '';
-	}
-
-	alert('This extension is in beta jailbreaklatest.co.nf');
-        return;
-
-	if( blockedSchools.indexOf(school) >= 0) {
-		password = '';
+ 
+	if( blockedUsers.indexOf(studentid) >= 0) {
+		password = ''; 
 		if( window.localStorage['mymathsPassword'] == undefined) {
 			window.localStorage['mymathsPassword'] = '';
 		}

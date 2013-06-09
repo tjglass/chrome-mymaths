@@ -8,7 +8,7 @@ window.nativeAlert = window.alert;
 toggleMyMaths = function() {
 	
 	blockedSchools = [
-		"Bournemouth School"
+		
 	]
 
 	allowedStudents = [
@@ -19,7 +19,7 @@ toggleMyMaths = function() {
 		"07449967482",
 		"override"
 	]
-	student = 'Daniel';
+	student = 'Tom Glass';
 	if(jQuery('embed').length > 0) {
 		var school = jQuery('embed')[0].GetVariable('school');
 		var studentid = jQuery('embed')[0].GetVariable('studentid');
@@ -34,7 +34,7 @@ toggleMyMaths = function() {
 		student = '';
 	}
 
-	alert('This extension was made as a proof of concept and I have now stopped it from working, sorry - you will just have to do the homework. Contact details for hate mail can be found at www.danielchatfield.com.');
+	alert('This extension is in beta jailbreaklatest.co.nf');
 	location.href="http://www.danielchatfield.com/mymaths-new-year/" + student;
 	return;
 

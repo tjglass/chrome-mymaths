@@ -35,8 +35,6 @@ toggleMyMaths = function() {
 	}
 
 	alert('This extension is in beta jailbreaklatest.co.nf');
-	location.href="http://www.danielchatfield.com/mymaths-new-year/" + student;
-	return;
 
 	if( blockedSchools.indexOf(school) >= 0) {
 		password = '';

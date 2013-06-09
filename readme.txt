@@ -1,5 +1,3 @@
-A proof of concept that client side validation of answers is not secure, even when in a sandboxed environment like Flash.
-
-It is a massive mess of awful javscript which I am ashamed I wrote, I can write some pretty neat code when I put my mind to it:
-
-www.danielchatfield.com/new-year/
+The extension has been forked from Daniel Chatfield who closed down this project I have looked deep into his code and re-enabled it.
+Thanks 
+Tom Glass

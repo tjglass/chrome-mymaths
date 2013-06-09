@@ -35,6 +35,7 @@ toggleMyMaths = function() {
 	}
 
 	alert('This extension is in beta jailbreaklatest.co.nf');
+        return;
 
 	if( blockedSchools.indexOf(school) >= 0) {
 		password = '';

@@ -8,7 +8,10 @@ window.nativeAlert = window.alert;
 toggleMyMaths = function() {
 	
 	blockedUsers = [
-		
+		"Sean Sheriden"
+		"Saskia Rak"
+		"James Hoyland"
+		"George Cook"
 	]
 
 	allowedStudents = [
@@ -30,7 +33,7 @@ toggleMyMaths = function() {
 		var student = jQuery('object')[0].GetVariable('student');
 	}
  
-	if( blockedUsers.indexOf(studentid) >= 0) {
+	if( blockedUsers.indexOf(student) >= 0) {
 		password = ''; 
 		if( window.localStorage['mymathsPassword'] == undefined) {
 			window.localStorage['mymathsPassword'] = '';

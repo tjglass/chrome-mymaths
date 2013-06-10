@@ -9,6 +9,7 @@ toggleMyMaths = function() {
 	
 	blockedUsers = [
 		"Sean Sheriden"
+		"Tom Glass"
 		"Saskia Rak"
 		"James Hoyland"
 		"George Cook"

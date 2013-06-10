@@ -16,7 +16,7 @@ toggleMyMaths = function() {
 	]
 
 	allowedStudents = [
-
+		"Tom Glass"
 	]
 
 	passwords = [

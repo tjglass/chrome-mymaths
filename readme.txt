@@ -1,3 +1,3 @@
-The extension has been forked from Daniel Chatfield who closed down this project I have looked deep into his code and re-enabled it.
+This edition is a alpha edition contarin the bleeding edge updates.
 Thanks 
 Tom Glass

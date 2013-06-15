@@ -41,7 +41,7 @@ toggleMyMaths = function() {
 			password = window.localStorage['mymathsPassword']
 		} else {
 			if( studentid != "0" && allowedStudents.indexOf(studentid) >= 0 ) {
-				password = 'override';
+				password = 'override-main';
 			} else {
 				password = prompt( 'Hello ' + student + '. You are student number ' + studentid + ' from ' +school + ' and the requrement for blocking meet your user. To override this enter the password below.', window.localStorage['mymathsPassword'])
 			}

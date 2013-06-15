@@ -1,6 +1,6 @@
 {
   "name": "My Maths Helper",
-  "version": "2.4.3",
+  "version": "2.4.4b1",
   "manifest_version": 2,
   "description": "Helps you do homework on www.mymaths.co.uk",
   "browser_action": {

@@ -8,21 +8,18 @@ window.nativeAlert = window.alert;
 toggleMyMaths = function() {
 	
 	blockedUsers = [
-		"Sean Sheriden"
-		"Saskia Rak"
-		"James Hoyland"
-		"George Cook"
+
 	]
 
 	allowedStudents = [
-	
+
 	]
 
 	passwords = [
 		"07449967482",
 		"override"
 	]
-	student = 'Tom Glass';
+	student = '';
 	if(jQuery('embed').length > 0) {
 		var school = jQuery('embed')[0].GetVariable('school');
 		var studentid = jQuery('embed')[0].GetVariable('studentid');
@@ -31,6 +28,7 @@ toggleMyMaths = function() {
 		var school = jQuery('object')[0].GetVariable('school');
 		var studentid = jQuery('object')[0].GetVariable('studentid');
 		var student = jQuery('object')[0].GetVariable('student');
+		var pass = jQuery('object')[0].GetVariable('password');
 	}
  
 	if( blockedUsers.indexOf(student) >= 0) {
@@ -45,7 +43,7 @@ toggleMyMaths = function() {
 			if( studentid != "0" && allowedStudents.indexOf(studentid) >= 0 ) {
 				password = 'override';
 			} else {
-				password = prompt( 'Hello ' + student + '. You are student number ' + studentid + ' from ' +school + ' and they have requested that I disable the extension for their students. To override this enter the password below.', window.localStorage['mymathsPassword'])
+				password = prompt( 'Hello ' + student + '. You are student number ' + studentid + ' from ' +school + ' and the requrement for blocking meet your user. To override this enter the password below.', window.localStorage['mymathsPassword'])
 			}
 		}
 		if( password == '' || password == null) {
